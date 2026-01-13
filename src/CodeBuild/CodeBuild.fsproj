@@ -6,6 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Shared\\Lexer.fs" />
+    <Compile Include="Shared\\Tokens.fs" />
     <Compile Include="Python\\Tokens.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
